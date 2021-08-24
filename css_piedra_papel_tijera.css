@@ -1,0 +1,14 @@
+.container{
+    background-color: rgb(6, 89, 89);
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 56px;
+}
+.botonera{
+   text-align: center;
+}
+#areaJuego{
+    text-align: center;
+}

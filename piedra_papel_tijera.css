@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EJERCICIO 1 JAVASCRIPT CLASE 20-7</title>
+   <script type="text/javascript" src="PIEDRA-PAPEL-TIJERA._js.js"></script>
+   
+   <link type="text/css" rel="stylesheet" href="css_piedra_papel_tijera.css">   
+   
+</head>
+
+<body>
+   
+	<div class="container">
+       
+        <h2>PIEDRA PAPEL TIJERA</h2>
+        <div id="areaJuegoMaquina">
+
+        </div>
+        <div id="areaJuegoUsuario">
+
+        </div>
+        <div class="botonera">
+            <button type="button" onclick="valorUsuario('piedra')"><img src="piedra-slide.png"> </button>
+            <button type="button" onclick="valorUsuario('papel')"><img src="papel-slide.png"> </button>
+            <button type="button" onclick="valorUsuario('tijera')"><img src="tijera.png"> </button>
+        </div>
+
+        
+    </div>
+
+</body>
+</html>
