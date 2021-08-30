@@ -1,10 +1,62 @@
 .container{
     background-color: rgb(6, 89, 89);
+    
+}
+.labelCant{
+    color: white;
+    font-size: 27px;
+    margin: 12px;
+}
+#rep{
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+}
+.puntuacion{
+    position: absolute;
+    left: 0px;
+    width: 90px;
+    
+}
+.imgUM{
+    position: relative;
+    bottom: 50px;
+    border-radius: 12px;
+    width: 220px;
+    height: 200px;
+    
+}
+.imgBotonera{
+    
+    width: 130px;
+    margin: 15px;
+}
+
+.botones{
+    border-radius: 50%;
+    margin: 12px;
+}
+.botones:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    box-shadow: 10px 5px 5px black;
 }
 h2{
     color: white;
     text-align: center;
-    font-size: 56px;
+    font-size: 20px;
+}
+.tablero{
+    background-color: rgb(2, 179, 111);
+    margin: 2px;
+    padding: 12px;
+    border-radius: 40px;
+}
+.tableroGeneral{
+    background-color: rgb(2, 179, 111);
+    margin: 12px;
+    padding: 12px;
+    border-radius: 40px;
 }
 .botonera{
    text-align: center;

@@ -13,20 +13,41 @@
 	<div class="container">
        
         <h2>PIEDRA PAPEL TIJERA</h2>
-        <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
-          </div>
+
+        <div>
+          <label class="labelCant" >Cantidad de Veces a Jugar:</label>  
+          <input type="number" name="" id="rep">
+        </div>
+
         <div id="areaJuego">
-            <img id="maquina" src="pri.jpg" />
-            <h2>JUGAR</h2>
-            <img id="user" src="pri.jpg" />
+            <h2>JUGADOR USUARIO</h2>
+
+            <div  class="puntuacion form-floating mb-3">
+              <input type="text" id="valorRep"  class=" form-control"/> 
+              <label  id="resUser" >puntuacion usuario</label>
+             </div>
+
+            <img id="user" class="imgUM" src="este.gif" />
+            <div class="botonera">
+                <button type="button" class="botones"  onclick="valorUsuario('PIEDRA')"><img class="imgBotonera" src="piedra-slide.png"> </button>
+                <button type="button" class="botones" onclick="valorUsuario('PAPEL')"><img  class="imgBotonera" src="papel-slide.png"> </button>
+                <button type="button" class="botones" onclick="valorUsuario('tijera')"><img class="imgBotonera" src="tijera.png"> </button>
+            </div>
+            <h2 class="tablero" id="tabler">RESULTADO PARCIAL</h2>
+            <h2 class="tableroGeneral" id="tablerGeneral">RESULTADO FINAL</h2> 
+            <h2>JUGADOR INTELIGENCIA ARTIFICIAL</h2>
+            <div  class="puntuacion form-floating mb-3">
+              <input type="text" class="form-control">
+              <label id="resMaquina" >puntuacion compu</label>
+            </div>
+            
+            <img id="maquina" class="imgUM" src="este.gif" />
+
+            
+            
         </div>
        
-        <div class="botonera">
-            <button type="button" onclick="valorUsuario('PIEDRA')"><img  src="piedra-slide.png"> </button>
-            <button type="button" onclick="valorUsuario('PAPEL')"><img   src="papel-slide.png"> </button>
-            <button type="button" onclick="valorUsuario('tijera')"><img  src="tijera.png"> </button>
-        </div>
+        
 
         
     </div>
