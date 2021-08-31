@@ -1,4 +1,4 @@
-var tope=0;
+
 
 var val1 = '';
 var sumaUser=0;
@@ -13,7 +13,7 @@ function valorUsuario(val){
     if (val==='PIEDRA'){
         val1='PIEDRA';  
         document.getElementById('user').src="piedra-slide.png";
-            //document.getElementById('maquina').src="pri.jpg";
+            
     }else if(val==='PAPEL'){
         document.getElementById('user').src="papel-slide.png";
         val1='PAPEL';
@@ -95,7 +95,7 @@ function ganador(){
         if (sumaUser>sumaMaq) {
             document.getElementById('tablerGeneral').innerHTML='GANADOR FINAL: USUARIO!!!';
             setTimeout(function(){ 
-                alert("¿Desea Reiniciar El Juego");
+                alert("Reiniciar, Para Continuar...");
                 location.reload();
             
             }, 3000);
@@ -103,14 +103,14 @@ function ganador(){
         }else if(sumaUser<sumaMaq){
             document.getElementById('tablerGeneral').innerHTML='GANADOR FINAL: USUARIO!!!';
             setTimeout(function(){ 
-                alert("¿Desea Reiniciar El Juego");
+                alert("Reiniciar, Para Continuar...");
                 location.reload();
             
             }, 3000);
         }else{
             document.getElementById('tablerGeneral').innerHTML='RESULTADO FINAL: EMPATE!!!';
             setTimeout(function(){ 
-                alert("¿Desea Reiniciar El Juego");
+                alert("Reiniciar, Para Continuar...");
                 location.reload();
             
             }, 3000);
